@@ -1,0 +1,54 @@
+{
+  "usuarios": [
+    {
+      "name": "Clark Kent",
+      "email": "clark.kent@dc.com",
+      "password": "SuperSenha1"
+    },
+    {
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@dc.com",
+      "password": "BatCaverna2"
+    },
+    {
+      "name": "Diana Prince",
+      "email": "diana.prince@dc.com",
+      "password": "Amazonia3!"
+    },
+    {
+      "name": "Barry Allen",
+      "email": "barry.allen@dc.com",
+      "password": "Velocidade4"
+    },
+    {
+      "name": "Arthur Curry",
+      "email": "arthur.curry@dc.com",
+      "password": "Atlantis5#"
+    },
+    {
+      "name": "Hal Jordan",
+      "email": "hal.jordan@dc.com",
+      "password": "AnelVerde6"
+    },
+    {
+      "name": "Victor Stone",
+      "email": "victor.stone@dc.com",
+      "password": "Ciborgue7$"
+    },
+    {
+      "name": "Oliver Queen",
+      "email": "oliver.queen@dc.com",
+      "password": "Arqueiro8%"
+    },
+    {
+      "name": "Harleen Quinzel",
+      "email": "harleen.quinzel@dc.com",
+      "password": "Arlequina9&"
+    },
+    {
+      "name": "Lex Luthor",
+      "email": "lex.luthor@dc.com",
+      "password": "Kryptonita0*"
+    }
+  ]
+}

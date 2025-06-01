@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+*.env
+cypress.env.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+
+# Reports
+cypress/results/
