@@ -148,26 +148,30 @@ O projeto está configurado para:
 Os relatórios detalhados das execuções dos testes estão disponíveis em `cypress/results/`. Aqui estão os últimos relatórios gerados:
 
 #### Relatórios de 01/06/2025
-- `mochawesome_06012025_153141.html/json`: Execução de massa de testes de cadastro (10 testes)
-- `mochawesome_06012025_153145.html/json`: Testes de deleção (2 testes)
-- `mochawesome_06012025_153149.html/json`: Fluxo de login
-- `mochawesome_06012025_153153.html/json`: Login correto
-- `mochawesome_06012025_153159.html/json`: Login incorreto
-- `mochawesome_06012025_153204.html/json`: Testes de navegação (6 testes)
-- `mochawesome_06012025_153207.html/json`: Testes de imagens
-- `mochawesome_06012025_153210.html/json`: Testes da página principal
-- `mochawesome_06012025_153212.html/json`: Testes de mensagens (2 testes)
+| Teste | HTML | JSON | Descrição |
+|-------|------|------|-----------|
+| Cadastro em Massa | [HTML](cypress/results/mochawesome_06012025_153141.html) | [JSON](cypress/results/mochawesome_06012025_153141.json) | Execução de massa de testes de cadastro (10 testes) |
+| Deleção | [HTML](cypress/results/mochawesome_06012025_153145.html) | [JSON](cypress/results/mochawesome_06012025_153145.json) | Testes de deleção (2 testes) |
+| Fluxo de Login | [HTML](cypress/results/mochawesome_06012025_153149.html) | [JSON](cypress/results/mochawesome_06012025_153149.json) | Fluxo completo de login |
+| Login Correto | [HTML](cypress/results/mochawesome_06012025_153153.html) | [JSON](cypress/results/mochawesome_06012025_153153.json) | Testes de login com sucesso |
+| Login Incorreto | [HTML](cypress/results/mochawesome_06012025_153159.html) | [JSON](cypress/results/mochawesome_06012025_153159.json) | Testes de validação de login |
+| Navegação | [HTML](cypress/results/mochawesome_06012025_153204.html) | [JSON](cypress/results/mochawesome_06012025_153204.json) | Testes de navegação (6 testes) |
+| Imagens | [HTML](cypress/results/mochawesome_06012025_153207.html) | [JSON](cypress/results/mochawesome_06012025_153207.json) | Testes de exibição de imagens |
+| Página Principal | [HTML](cypress/results/mochawesome_06012025_153210.html) | [JSON](cypress/results/mochawesome_06012025_153210.json) | Testes da página inicial |
+| Mensagens | [HTML](cypress/results/mochawesome_06012025_153212.html) | [JSON](cypress/results/mochawesome_06012025_153212.json) | Testes de mensagens (2 testes) |
 
 #### Relatórios de 30/05/2025
-- `mochawesome_05302025_160825.html/json`: Testes de cadastro correto
-- `mochawesome_05302025_160833.html/json`: Testes de cadastro incorreto
-- `mochawesome_05302025_160838.html/json`: Fluxo de login
-- `mochawesome_05302025_160846.html/json`: Login correto
-- `mochawesome_05302025_160854.html/json`: Login incorreto
-- `mochawesome_05302025_160903.html/json`: Testes de navegação
-- `mochawesome_05302025_160909.html/json`: Testes de imagens
-- `mochawesome_05302025_160913.html/json`: Testes da página principal
-- `mochawesome_05302025_160919.html/json`: Testes de mensagens
+| Teste | HTML | JSON | Descrição |
+|-------|------|------|-----------|
+| Cadastro Correto | [HTML](cypress/results/mochawesome_05302025_160825.html) | [JSON](cypress/results/mochawesome_05302025_160825.json) | Testes de cadastro com sucesso |
+| Cadastro Incorreto | [HTML](cypress/results/mochawesome_05302025_160833.html) | [JSON](cypress/results/mochawesome_05302025_160833.json) | Testes de validação de cadastro |
+| Fluxo de Login | [HTML](cypress/results/mochawesome_05302025_160838.html) | [JSON](cypress/results/mochawesome_05302025_160838.json) | Fluxo completo de login |
+| Login Correto | [HTML](cypress/results/mochawesome_05302025_160846.html) | [JSON](cypress/results/mochawesome_05302025_160846.json) | Testes de login com sucesso |
+| Login Incorreto | [HTML](cypress/results/mochawesome_05302025_160854.html) | [JSON](cypress/results/mochawesome_05302025_160854.json) | Testes de validação de login |
+| Navegação | [HTML](cypress/results/mochawesome_05302025_160903.html) | [JSON](cypress/results/mochawesome_05302025_160903.json) | Testes de navegação |
+| Imagens | [HTML](cypress/results/mochawesome_05302025_160909.html) | [JSON](cypress/results/mochawesome_05302025_160909.json) | Testes de exibição de imagens |
+| Página Principal | [HTML](cypress/results/mochawesome_05302025_160913.html) | [JSON](cypress/results/mochawesome_05302025_160913.json) | Testes da página inicial |
+| Mensagens | [HTML](cypress/results/mochawesome_05302025_160919.html) | [JSON](cypress/results/mochawesome_05302025_160919.json) | Testes de mensagens |
 
 Cada relatório inclui:
 - Status de cada teste (passou/falhou)
@@ -190,27 +194,37 @@ start cypress/results/mochawesome_*.html
 Os seguintes vídeos de testes estão disponíveis em `cypress/videos/`:
 
 #### Testes de Cadastro
-- `cadastro-correto.cy.js.mp4`: Demonstração do fluxo de cadastro bem-sucedido
-- `cadastro-incorreto.cy.js.mp4`: Demonstração das validações de erro no cadastro
-- `cadastro-massa.cy.js.mp4`: Demonstração dos testes com diferentes dados
+| Teste | Vídeo | Descrição |
+|-------|-------|-----------|
+| Cadastro Correto | [Ver Vídeo](cypress/videos/cadastro-correto.cy.js.mp4) | Demonstração do fluxo de cadastro bem-sucedido |
+| Cadastro Incorreto | [Ver Vídeo](cypress/videos/cadastro-incorreto.cy.js.mp4) | Demonstração das validações de erro no cadastro |
+| Cadastro em Massa | [Ver Vídeo](cypress/videos/cadastro-massa.cy.js.mp4) | Demonstração dos testes com diferentes dados |
 
 #### Testes de Login
-- `login-correto.cy.js.mp4`: Demonstração do login bem-sucedido
-- `login-incorreto.cy.js.mp4`: Demonstração das validações de erro no login
-- `fluxo-de-login.cy.js.mp4`: Demonstração do fluxo completo de login
+| Teste | Vídeo | Descrição |
+|-------|-------|-----------|
+| Login Correto | [Ver Vídeo](cypress/videos/login-correto.cy.js.mp4) | Demonstração do login bem-sucedido |
+| Login Incorreto | [Ver Vídeo](cypress/videos/login-incorreto.cy.js.mp4) | Demonstração das validações de erro no login |
+| Fluxo de Login | [Ver Vídeo](cypress/videos/fluxo-de-login.cy.js.mp4) | Demonstração do fluxo completo de login |
 
 #### Testes de API
-- `api-mensagens.cy.js.mp4`: Demonstração dos testes de API de mensagens
-- `api-perfil.cy.js.mp4`: Demonstração dos testes de API de perfil
+| Teste | Vídeo | Descrição |
+|-------|-------|-----------|
+| API Mensagens | [Ver Vídeo](cypress/videos/api-mensagens.cy.js.mp4) | Demonstração dos testes de API de mensagens |
+| API Perfil | [Ver Vídeo](cypress/videos/api-perfil.cy.js.mp4) | Demonstração dos testes de API de perfil |
 
 #### Testes de Interface
-- `teste-pagina-principal.cy.js.mp4`: Demonstração dos testes da página inicial
-- `teste-imagens-dos-animais.cy.js.mp4`: Demonstração dos testes de imagens
-- `teste-quem-ama-adota.cy.js.mp4`: Demonstração dos testes de textos e mensagens
-- `teste-de-pagina.cy.js.mp4`: Demonstração dos testes de navegação
+| Teste | Vídeo | Descrição |
+|-------|-------|-----------|
+| Página Principal | [Ver Vídeo](cypress/videos/teste-pagina-principal.cy.js.mp4) | Demonstração dos testes da página inicial |
+| Imagens dos Animais | [Ver Vídeo](cypress/videos/teste-imagens-dos-animais.cy.js.mp4) | Demonstração dos testes de imagens |
+| Quem Ama Adota | [Ver Vídeo](cypress/videos/teste-quem-ama-adota.cy.js.mp4) | Demonstração dos testes de textos e mensagens |
+| Navegação | [Ver Vídeo](cypress/videos/teste-de-pagina.cy.js.mp4) | Demonstração dos testes de navegação |
 
 #### Outros Testes
-- `delete-pagina-exemplo.cy.js.mp4`: Demonstração do teste de deleção
+| Teste | Vídeo | Descrição |
+|-------|-------|-----------|
+| Delete Exemplo | [Ver Vídeo](cypress/videos/delete-pagina-exemplo.cy.js.mp4) | Demonstração do teste de deleção |
 
 Os vídeos são gerados automaticamente durante a execução dos testes em modo headless (`npx cypress run`) e podem ser utilizados para:
 - Análise de falhas
