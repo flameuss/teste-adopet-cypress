@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-06-01T18:31:43.625Z",
+    "end": "2025-06-01T18:31:45.543Z",
+    "duration": 1918,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a0f4741c-e133-4f75-a0cf-7d858d58ad0b",
+      "title": "",
+      "fullFile": "cypress/e2e/delete-pagina-exemplo.cy.js",
+      "file": "cypress/e2e/delete-pagina-exemplo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c570f8bf-221f-4a70-b545-a851da6b9405",
+          "title": "Verificar se o delete esta funcionando",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Consegue deletar todas as tarefas",
+              "fullTitle": "Verificar se o delete esta funcionando Consegue deletar todas as tarefas",
+              "timedOut": null,
+              "duration": 674,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Primeiro, selecionamos o item da lista\ncy.get('.todo-list li').eq(0) // Seleciona o primeiro item da lista\n.should('have.text', 'Pay electric bill') // Verifica se o texto está correto\n.invoke('show') // Força a exibição do elemento\n.find('.destroy') // Encontra o botão 'X' (assumindo que a classe do botão é 'destroy')\n.click({\n  force: true\n}); // Clica no botão 'X'\n// Verifica se o item foi removido\ncy.get('.todo-list li').should('not.contain', 'Pay electric bill');",
+              "err": {},
+              "uuid": "e0578ef9-587c-4320-b029-5084916d28e1",
+              "parentUUID": "c570f8bf-221f-4a70-b545-a851da6b9405",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Para filtrar tarefas completas",
+              "fullTitle": "Verificar se o delete esta funcionando Para filtrar tarefas completas",
+              "timedOut": null,
+              "duration": 149,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('Completed').click({\n  force: true\n});\ncy.contains('Walk the dog').should('not.exist');",
+              "err": {},
+              "uuid": "ec4677a4-0e94-4949-88f1-823a84a5fc5c",
+              "parentUUID": "c570f8bf-221f-4a70-b545-a851da6b9405",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e0578ef9-587c-4320-b029-5084916d28e1",
+            "ec4677a4-0e94-4949-88f1-823a84a5fc5c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 823,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

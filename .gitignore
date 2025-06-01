@@ -4,17 +4,11 @@ node_modules/
 # Environment
 .env
 *.env
-cypress.env.json
 
 # Logs
 logs/
 *.log
 npm-debug.log*
-
-# Testing
-cypress/videos/
-cypress/screenshots/
-cypress/downloads/
 
 # IDE
 .idea/
@@ -29,5 +23,3 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Reports
-cypress/results/
